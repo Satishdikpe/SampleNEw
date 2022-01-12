@@ -1,0 +1,11 @@
+import java.util.TreeMap;
+
+public class Test2 {
+public static void main(String[] args) {
+	TreeMap<String,Integer> ts = new TreeMap<String,Integer>();
+	ts.put("Satish",111);
+	TreeMap<String,Integer> ts1 = new TreeMap<String,Integer>(ts);
+	ts1.put("manisha",112);
+	System.out.println(ts1);
+}
+}

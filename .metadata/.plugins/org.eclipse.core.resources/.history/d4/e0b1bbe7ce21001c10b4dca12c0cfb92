@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+
+public class Test2 {
+public static void main(String[] args) {
+	LinkedList<Book> ll = new LinkedList<Book>();
+	ll.add(new Book(111,"My Life","Satish"));
+	ll.add(new Book(112,"My family","Satish"));
+	ll.add(new Book(113,"My bike","Satish"));
+	ll.add(new Book(114,"My house","Satish"));
+System.out.println(ll);
+for (Book bk : ll) {
+	System.out.println(bk);
+}
+Book bk = ll.get(1);
+System.out.println(bk);
+ll.remove(2);
+System.out.println(ll);
+}
+}

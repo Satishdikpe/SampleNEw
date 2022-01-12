@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+//user defined method
+public class userdef {
+
+	public void test()
+	{
+		System.out.println("this is test method");
+	}
+// no input some return
+	public String nameofcountry()
+	{
+		String Countryname = "    India  ";
+		Countryname.trim();
+		return Countryname;
+	}
+public String[] listofstudents()
+{
+	System.out.println("Student list-");
+	String[] name = new String[3];
+	name[0]="person1";
+	name[1]="person2";
+	name[3]="person3";
+	return name;
+}	
+public void add(int a,int b)
+{
+int c = a+b;
+System.out.println(c);
+}
+public String factoryname(String nameoffactory)
+{
+if(nameoffactory.equals("nike"))
+{
+String fact1 = "@@nike@@";
+System.out.println("this is nike");
+return fact1;
+
+}
+else if (nameoffactory.equals("puma"))
+{
+	String fact2 = "@@puma@@";
+	System.out.println("this is puma");
+	return fact2;
+
+}
+return "no factory found with given criteria";
+}
+}

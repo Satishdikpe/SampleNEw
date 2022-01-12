@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class Test1 {
+public static void main(String[] args) {
+	ArrayList ar = new ArrayList();
+	ar.add("Satish");
+	ar.add("Dipke");
+	ar.add(111);
+	ar.add(222);
+	ar.add("Hingoli");
+	
+	System.out.println(ar.size());
+	ar.remove(3);
+	System.out.println(ar.size());
+}
+}

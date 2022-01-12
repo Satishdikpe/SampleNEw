@@ -1,0 +1,14 @@
+package Assignment_1;
+//
+public class Test1 {
+public static void main(String[] args) {
+	int a = 254;
+	if (a>=300) {
+		System.out.println("Number is less than equal to 300"+a);
+	}
+	else
+	{
+		System.out.println("Number is greater than 300"+a);
+	}
+}
+}

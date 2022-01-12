@@ -1,0 +1,35 @@
+package Assignment_1;
+
+import java.util.Scanner;
+
+public class Test2 {
+public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Please write you bill amount");
+	int bill = s.nextInt();
+	if(bill > 300 || bill == 500)
+	{
+		int Discount = bill-100;
+		System.out.println("discount applicable for you"+Discount);
+		int Tax = Discount+50;
+		System.out.println("Total payble amount"+Tax);
+		break;
+	}
+	if (bill>500 || bill == 1000)
+	{
+		int Discount = bill-200;
+		System.out.println("discount applicable for you"+Discount);
+		int Tax = Discount+100;
+		System.out.println("Total payble amount"+Tax);
+		break;
+	}
+	else
+	{
+		int Discount = bill-250;
+		System.out.println("discount applicable for you"+Discount);
+		int Tax = Discount+150;
+		System.out.println("Total payble amount"+Tax);
+		break;
+	}
+}
+}

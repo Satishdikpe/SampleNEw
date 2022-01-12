@@ -1,0 +1,21 @@
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class Test5 {
+public static void main(String[] args) {
+	TreeMap<Product, Custemer> tm = new TreeMap<Product,Custemer>();
+tm.put(new Product(111,"Shampoo"), new Custemer("satish",121));
+tm.put(new Product(113,"face wash"), new Custemer("Dipke",125));
+tm.put(new Product(112,"hair oil"), new Custemer("Manisha",129));
+tm.put(new Product(114,"Treemer"), new Custemer("alane",131));
+Set<java.util.Map.Entry<Product,Custemer>> ss= tm.entrySet();
+Iterator<java.util.Map.Entry<Product, Custemer>> itr = ss.iterator();
+while(itr.hasNext())
+{
+	java.util.Map.Entry<Product, Custemer> ee = itr.next();
+	Product pp = ee.getKey();
+	System.out.println(pp.pid+"---"+pp.Pname);
+}
+}
+}

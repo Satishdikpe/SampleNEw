@@ -1,0 +1,12 @@
+
+public class Test7 {
+String country()
+{
+	String name = "India";
+	return name;
+	}
+public static void main(String[] args) {
+	Test7 t = new Test7();
+	t.country();
+}
+}

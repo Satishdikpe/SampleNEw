@@ -1,0 +1,31 @@
+package Assignment_1;
+
+import java.util.Scanner;
+
+public class Test2 {
+public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Please write you bill amount");
+	int bill = s.nextInt();
+	if(bill > 300 )
+	{
+	System.out.println("After tax bill"+bill+50);
+	}
+	else if (bill==500)
+	{
+		System.out.println("After tax bill"+bill+50);
+	}
+	else if (bill > 500)
+	{
+	System.out.println("after tax bill "+bill+20);	
+	}
+	else if (bill == 1000)
+	{
+		System.out.println("after tax bill "+bill+20);
+	}
+	else 
+	{
+		System.out.println("after tax bill "+bill+10);
+	}
+}
+}

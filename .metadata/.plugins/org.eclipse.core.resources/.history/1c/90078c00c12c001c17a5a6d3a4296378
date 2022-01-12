@@ -1,0 +1,25 @@
+package Assignment_2;
+
+import java.util.Scanner;
+
+public class Test1
+{
+	String m1()
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the Number");
+		int a = s.nextInt();
+		if(a==1) {System.out.println("Monday");}
+		if(a==0) {System.out.println("Sunday");}
+		if(a==2) {System.out.println("Tuesday");}
+		if(a==3) {System.out.println("Thursday");}
+		if(a==4) {System.out.println("Friday");}
+		return "Invalid Number";
+	}
+	
+	public static void main(String[] args) {
+	Test1 t = new Test1();
+	t.m1();
+	}
+	
+	}

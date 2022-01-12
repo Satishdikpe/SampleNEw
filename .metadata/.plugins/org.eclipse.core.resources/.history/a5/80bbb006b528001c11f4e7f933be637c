@@ -1,0 +1,15 @@
+//user defined method
+public class userdef {
+
+	public void test()
+	{
+		System.out.println("this is test method");
+	}
+// no input some return
+	public String nameofcountry()
+	{
+		String Countryname = "India";
+		return Countryname;
+		
+	}
+}

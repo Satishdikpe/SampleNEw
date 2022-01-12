@@ -1,0 +1,25 @@
+package Stringandswitch;
+
+public class Test1 {
+public static void main(String[] args) {
+	int a = 10;
+	
+	switch(a)
+	{
+	case 0 :
+		System.out.println("its case 0");
+		break;
+	case 1:
+		System.out.println("its case one");
+		break;	
+	case 2 :
+		System.out.println("its case two");
+		break;
+		default:
+			System.out.println("its default case ");
+			break;
+				
+	}
+		
+}
+}

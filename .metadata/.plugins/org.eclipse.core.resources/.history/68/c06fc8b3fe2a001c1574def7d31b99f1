@@ -1,0 +1,30 @@
+package Stringandswitch;
+
+public class Test2 {
+public static void main(String[] args) {
+	String str = "  My Name is miss AppleBerry. ";
+System.out.println(str.trim());
+System.out.println("-----------------------");
+System.out.println(str.charAt(6));
+System.out.println("-----------------------");
+System.out.println(str.contains("miss"));
+System.out.println("-----------------------");
+System.out.println(str.length());
+System.out.println("-----------------------");
+System.out.println(str.replace("miss","Kiss"));
+System.out.println("-----------------------");
+System.out.println(str.indexOf("miss"));
+System.out.println("-----------------------");
+System.out.println(str.endsWith("AppleBerry"));
+System.out.println("-----------------------");
+System.out.println(str.startsWith("My"));
+System.out.println("-----------------------");
+System.out.println(str.indexOf("miss"));
+System.out.println("-----------------------");
+System.out.println(str.toLowerCase());
+System.out.println("-----------------------");
+System.out.println(str.toUpperCase());
+System.out.println("-----------------------");
+
+}
+}

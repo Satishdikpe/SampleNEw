@@ -1,0 +1,38 @@
+package Assignment_2;
+
+public class Test1
+{
+String loop()
+{
+for (int i = 0; i < 10; i++) {
+	if(i==0)
+		return "Zero";
+	if(i==1)
+		return "One";
+	if(i==2)
+		return "Two";
+	if(i==3)
+		return "Three";
+	if(i==4)
+		return "Four";
+	if(i==5)
+		return "Five";
+	if(i==6)
+		return "Six";
+	if(i==7)
+		return "Seven";
+	if(i==8)
+		return "Eight";
+	if(i==9)
+		return "Nine";
+}
+return "Satish";}
+
+
+public static void main(String[] args) 
+{
+Test1 t = new Test1();
+t.loop();
+	
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.HashSet;
+
+public class Test1 {
+public static void main(String[] args) {
+	HashSet<String> h = new HashSet<String>();
+h.add("Satish");
+h.add("Rambhau");
+h.add("Dipke");
+h.add("Satish");
+System.out.println(h);
+
+}
+}

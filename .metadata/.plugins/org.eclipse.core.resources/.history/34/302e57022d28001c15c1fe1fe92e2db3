@@ -1,0 +1,7 @@
+
+public class student {
+	
+int sid;
+String sname;
+
+}

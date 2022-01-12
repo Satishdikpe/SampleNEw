@@ -1,0 +1,18 @@
+
+public class Test8 {
+public String country (String nameofcountry)
+{
+if(nameofcountry.equals("India"))	
+{
+return "new delhi";	
+}
+else if (nameofcountry.equals("USA"))
+{
+return "Washington DC";
+}
+return "No match found";
+}
+public static void main(String[] args) {
+	System.out.println(new Test8().country("INDIA"));
+}
+}

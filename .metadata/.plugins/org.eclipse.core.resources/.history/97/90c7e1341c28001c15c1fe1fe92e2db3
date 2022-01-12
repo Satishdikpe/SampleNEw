@@ -1,0 +1,12 @@
+import java.util.HashMap;
+
+public class Test1 {
+public static void main(String[] args) {
+	HashMap<Integer, String> h = new HashMap<Integer, String>();
+	h.put(111, "Satish");
+	h.put(112, "Dipke");
+	h.put(113, "Manisha");
+	h.put(114, "Alane");
+	System.out.println(h);
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Test10 {
+public static void main(String[] args) {
+	
+	Scanner s = new Scanner(System.in);	
+	int a = s.nextInt();
+	System.out.println("Enter you number"+a);
+	
+	Scanner s1 = new Scanner(System.in);	
+	int b = s1.nextInt();
+	System.out.println("Enter you number"+b);
+	
+	Test6 t = new Test6();
+	int x = t.m1(a, b);
+	System.out.println(x);
+}
+}

@@ -1,0 +1,15 @@
+import java.util.LinkedHashSet;
+
+public class Test3 {
+public static void main(String[] args) {
+		LinkedHashSet<String> lhs = new LinkedHashSet<String>();
+lhs.add("Satish");
+lhs.add("Dipke");
+
+LinkedHashSet<String> lhs1 = new LinkedHashSet<String>(lhs);
+
+lhs1.add("Manisha");
+lhs1.add("Alane");
+System.out.println(lhs1);
+}
+}

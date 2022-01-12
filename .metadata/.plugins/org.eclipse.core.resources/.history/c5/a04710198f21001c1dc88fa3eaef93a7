@@ -1,0 +1,17 @@
+import java.util.LinkedList;
+
+public class test1 {
+public static void main(String[] args) {
+	LinkedList<String> ll = new LinkedList<String>();
+ll.add("Satish");
+ll.add("Dipke");
+ll.add("Manisha");
+ll.add("Alane");
+ll.add(null);
+System.out.println(ll);
+ll.addFirst("Hingoli");
+ll.addLast("Pune");
+System.out.println(ll);
+System.out.println(ll.size());
+}
+}

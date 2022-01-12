@@ -1,0 +1,14 @@
+import java.util.LinkedHashMap;
+import java.util.Set;
+
+public class Test2 {
+public static void main(String[] args) {
+	LinkedHashMap<Emp, student> lhm = new LinkedHashMap<Emp,student>();
+lhm.put(new Emp(111,"Satish"),new student(1,"Dipke"));
+lhm.put(new Emp(112,"Manisha"),new student(2,"Alane"));
+Set<Emp> s= lhm.keySet();
+Emp e = (Emp)s;
+System.out.println(e);
+
+}
+}
